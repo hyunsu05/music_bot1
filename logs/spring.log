@@ -1,0 +1,207 @@
+2023-11-07T00:11:11.887+09:00  INFO 10260 --- [main] lavalink.server.Launcher                 : Starting Launcher v4.0.0-beta.3 using Java 17.0.9 with PID 10260 (C:\Users\Hyunsoo\Desktop\discord_music_bot-master\Lavalink\Lavalink.jar started by Hyunsoo in C:\Users\Hyunsoo\Desktop\discord_music_bot-master)
+2023-11-07T00:11:11.888+09:00  INFO 10260 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-11-07T00:11:12.494+09:00  INFO 10260 --- [main] lavalink.server.Launcher                 : Started Launcher in 0.899 seconds (process running for 1.226)
+2023-11-07T00:11:12.496+09:00  INFO 10260 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/lavalink-devs/Lavalink/issues/295
+2023-11-07T00:11:12.525+09:00  INFO 10260 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4.0.0-beta.3
+	Build time:     03.08.2023 15:57:46 UTC
+	Branch          HEAD
+	Commit:         6f37eba
+	Commit time:    03.08.2023 15:55:57 UTC
+	JVM:            17.0.9
+	Lavaplayer      2.0.0
+
+2023-11-07T00:11:12.532+09:00  INFO 10260 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-11-07T00:11:12.940+09:00  WARN 10260 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-11-07T00:11:12.963+09:00  INFO 10260 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-11-07T00:11:12.963+09:00  INFO 10260 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 427 ms
+2023-11-07T00:11:13.046+09:00  INFO 10260 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2023-11-07T00:11:13.529+09:00  INFO 10260 --- [main] l.server.config.KoeConfiguration         : OS: WINDOWS, Arch: X86_64
+2023-11-07T00:11:13.529+09:00  INFO 10260 --- [main] l.server.config.KoeConfiguration         : Enabling JDA-NAS
+2023-11-07T00:11:13.531+09:00  INFO 10260 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2023-11-07T00:11:13.535+09:00  INFO 10260 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2023-11-07T00:11:13.566+09:00  WARN 10260 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2023-11-07T00:11:13.744+09:00  INFO 10260 --- [main] io.undertow                              : starting server: Undertow - 2.3.6.Final
+2023-11-07T00:11:13.750+09:00  INFO 10260 --- [main] org.xnio                                 : XNIO version 3.8.8.Final
+2023-11-07T00:11:13.755+09:00  INFO 10260 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2023-11-07T00:11:13.793+09:00  INFO 10260 --- [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2023-11-07T00:11:13.828+09:00  INFO 10260 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 2333 (http)
+2023-11-07T00:11:13.830+09:00  INFO 10260 --- [main] lavalink.server.Launcher                 : Started Launcher in 1.332 seconds (process running for 2.562)
+2023-11-07T00:11:13.831+09:00  INFO 10260 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2023-11-07T00:11:20.319+09:00  INFO 10260 --- [XNIO-1 task-2] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-07T00:11:20.319+09:00  INFO 10260 --- [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-07T00:11:20.320+09:00  INFO 10260 --- [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-07T00:11:20.361+09:00  INFO 10260 --- [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:49483
+2023-11-07T00:11:20.362+09:00  INFO 10260 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /version, client=127.0.0.1
+2023-11-07T00:11:20.373+09:00  INFO 10260 --- [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=127.0.0.1
+2023-11-07T00:11:20.408+09:00  INFO 10260 --- [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from Moonlink/2.5.12
+2023-11-07T00:14:42.619+09:00  INFO 10260 --- [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ash island remember"
+2023-11-07T00:14:43.216+09:00  INFO 10260 --- [XNIO-1 task-3] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ash island remember
+2023-11-07T00:14:43.260+09:00  INFO 10260 --- [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/loadtracks?identifier=ytsearch%3Aash+island+remember, client=127.0.0.1
+2023-11-07T00:14:43.597+09:00  INFO 10260 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ketl4qbrkhdjh9g3/players/1170901669341577246, client=127.0.0.1, payload={"voice":{"sessionId":"2ce469ae2a4293102abbd4a032ef709d","endpoint":"south-korea1080.discord.media:443","token":"da3bf1a4aceef47d"}}
+2023-11-07T00:14:53.603+09:00  INFO 10260 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ketl4qbrkhdjh9g3/players/1170901669341577246, client=127.0.0.1, payload={"encodedTrack":"QAAArgMACkkgcmVtZW1iZXIAEkFTSCBJU0xBTkQgLSBUb3BpYwAAAAAAAzwgAAtUWW94dG5yLV8wUQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVRZb3h0bnItXzBRAQA0aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9UWW94dG5yLV8wUS9tYXhyZXNkZWZhdWx0LmpwZwAAB3lvdXR1YmUAAAAAAAAAAA==","volume":80}
+2023-11-07T00:14:53.603+09:00  WARN 10260 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : YouTube auth tokens can't be retrieved because email and password is not set in YoutubeAudioSourceManager, age restricted videos will throw exceptions.
+2023-11-07T00:14:54.690+09:00  INFO 10260 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is null).
+2023-11-07T00:14:54.898+09:00  INFO 10260 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtpQ2tXS3JOVTNyNCjvhaSqBjIICgJLUhICGgA6CiDDxtXz8t3ApGU%3D, next update will be after 600 seconds.
+2023-11-07T00:14:55.069+09:00  INFO 10260 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$820/0x00000229f074fa38@5d6a3cfc
+2023-11-07T00:14:55.074+09:00  INFO 10260 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2023-11-07T00:14:55.074+09:00  INFO 10260 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2023-11-07T00:14:55.094+09:00  INFO 10260 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2023-11-07T00:14:57.295+09:00  INFO 10260 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ketl4qbrkhdjh9g3/players/1170901669341577246, client=127.0.0.1, payload={"encodedTrack":null}
+2023-11-07T00:14:57.302+09:00  INFO 10260 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : DELETE /v4/sessions/ketl4qbrkhdjh9g3/players/1170901669341577246, client=127.0.0.1
+2023-11-07T00:15:27.464+09:00  INFO 10260 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ÇÑ ÆäÀÌÁö°¡ µÉ ¼ö ÀÖ°Ô"
+2023-11-07T00:15:27.800+09:00  INFO 10260 --- [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ketl4qbrkhdjh9g3/players/1170901669341577246, client=127.0.0.1, payload={"voice":{"sessionId":"2ce469ae2a4293102abbd4a032ef709d","endpoint":"south-korea1080.discord.media:443","token":"da3bf1a4aceef47d"}}
+2023-11-07T00:15:27.964+09:00  INFO 10260 --- [XNIO-1 task-2] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ÇÑ ÆäÀÌÁö°¡ µÉ ¼ö ÀÖ°Ô
+2023-11-07T00:15:27.967+09:00  INFO 10260 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/loadtracks?identifier=ytsearch%3A%ED%95%9C+%ED%8E%98%EC%9D%B4%EC%A7%80%EA%B0%80+%EB%90%A0+%EC%88%98+%EC%9E%88%EA%B2%8C, client=127.0.0.1
+2023-11-07T00:15:28.000+09:00  INFO 10260 --- [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ketl4qbrkhdjh9g3/players/1170901669341577246, client=127.0.0.1, payload={"voice":{"sessionId":"2ce469ae2a4293102abbd4a032ef709d","endpoint":"south-korea1080.discord.media:443","token":"d4e17f9703186659"}}
+2023-11-07T00:15:38.411+09:00  INFO 10260 --- [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ketl4qbrkhdjh9g3/players/1170901669341577246, client=127.0.0.1, payload={"encodedTrack":"QAABQwMARERBWTYo642w7J207Iud7IqkKSAtIO2VnCDtjpjsnbTsp4DqsIAg65CgIOyImCDsnojqsowgW+qwgOyCrC9MeXJpY3NdAAbsm4XtgqQAAAAAAAMksAALb1l2Z0lTS0Q1WTgAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1vWXZnSVNLRDVZOAEAm2h0dHBzOi8vaS55dGltZy5jb20vdmkvb1l2Z0lTS0Q1WTgvbWF4cmVzZGVmYXVsdC5qcGc/c3FwPS1vYXltd0VtQ0lBS0VOQUY4cXVLcVFNYThBRUItQUgtQ1lBQzBBV0tBZ3dJQUJBQkdHVWdUeWhQTUE4PSZycz1BT240Q0xDd1duWnVIdVJCU1JDRDZHTy1EMkpBVDRSWXNBAAAHeW91dHViZQAAAAAAAAAA","volume":80}
+2023-11-07T00:17:25.749+09:00  INFO 10260 --- [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:À½¾ÇÀÇ ½Å"
+2023-11-07T00:17:26.327+09:00  INFO 10260 --- [XNIO-1 task-3] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: À½¾ÇÀÇ ½Å
+2023-11-07T00:17:26.332+09:00  INFO 10260 --- [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/loadtracks?identifier=ytsearch%3A%EC%9D%8C%EC%95%85%EC%9D%98+%EC%8B%A0, client=127.0.0.1
+2023-11-07T00:17:44.529+09:00  INFO 10260 --- [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ketl4qbrkhdjh9g3/players/1170901669341577246, client=127.0.0.1, payload={"encodedTrack":"QAAAzgMAMVNFVkVOVEVFTiAo7IS467iQ7Yu0KSAn7J2M7JWF7J2YIOyLoCcgT2ZmaWNpYWwgTVYAC0hZQkUgTEFCRUxTAAAAAAADxNgAC3pTUTQ4enlXWnJZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9elNRNDh6eVdaclkBADRodHRwczovL2kueXRpbWcuY29tL3ZpL3pTUTQ4enlXWnJZL21heHJlc2RlZmF1bHQuanBnAAAHeW91dHViZQAAAAAAAAAA","volume":80}
+2023-11-07T00:18:44.736+09:00  INFO 10260 --- [SpringApplicationShutdownHook] io.undertow                              : stopping server: Undertow - 2.3.6.Final
+2023-11-07T00:18:44.739+09:00  INFO 10260 --- [SpringApplicationShutdownHook] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-07T00:18:44.740+09:00  INFO 10260 --- [SpringApplicationShutdownHook] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2023-11-07T00:18:44.743+09:00  INFO 10260 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:49483 with id ketl4qbrkhdjh9g3 -- CloseStatus[code=1006, reason=]
+2023-11-07T00:18:44.743+09:00  INFO 10260 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2023-11-07T00:18:44.744+09:00 ERROR 10260 --- [XNIO-1 I/O-2] org.xnio.nio                             : XNIO000011: Task io.undertow.websockets.jsr.UndertowSession$3$1@3f93f9c0 failed with an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:620) ~[xnio-nio-3.8.8.Final.jar!/:3.8.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession.close0(UndertowSession.java:362) ~[undertow-websockets-jsr-2.3.6.Final.jar!/:2.3.6.Final]
+	at io.undertow.websockets.jsr.UndertowSession.closeInternal(UndertowSession.java:242) ~[undertow-websockets-jsr-2.3.6.Final.jar!/:2.3.6.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3$1.run(UndertowSession.java:402) ~[undertow-websockets-jsr-2.3.6.Final.jar!/:2.3.6.Final]
+	at org.xnio.nio.WorkerThread.safeRun(WorkerThread.java:612) ~[xnio-nio-3.8.8.Final.jar!/:3.8.8.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:479) ~[xnio-nio-3.8.8.Final.jar!/:3.8.8.Final]
+
+2023-11-07T00:19:09.669+09:00  INFO 21656 --- [main] lavalink.server.Launcher                 : Starting Launcher v4.0.0-beta.3 using Java 17.0.9 with PID 21656 (C:\Users\Hyunsoo\Desktop\discord_music_bot-master\Lavalink\Lavalink.jar started by Hyunsoo in C:\Users\Hyunsoo\Desktop\discord_music_bot-master)
+2023-11-07T00:19:09.670+09:00  INFO 21656 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-11-07T00:19:10.236+09:00  INFO 21656 --- [main] lavalink.server.Launcher                 : Started Launcher in 0.838 seconds (process running for 1.157)
+2023-11-07T00:19:10.237+09:00  INFO 21656 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/lavalink-devs/Lavalink/issues/295
+2023-11-07T00:19:10.263+09:00  INFO 21656 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4.0.0-beta.3
+	Build time:     03.08.2023 15:57:46 UTC
+	Branch          HEAD
+	Commit:         6f37eba
+	Commit time:    03.08.2023 15:55:57 UTC
+	JVM:            17.0.9
+	Lavaplayer      2.0.0
+
+2023-11-07T00:19:10.268+09:00  INFO 21656 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-11-07T00:19:10.648+09:00  WARN 21656 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-11-07T00:19:10.665+09:00  INFO 21656 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-11-07T00:19:10.666+09:00  INFO 21656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 395 ms
+2023-11-07T00:19:10.732+09:00  INFO 21656 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2023-11-07T00:19:11.197+09:00  INFO 21656 --- [main] l.server.config.KoeConfiguration         : OS: WINDOWS, Arch: X86_64
+2023-11-07T00:19:11.198+09:00  INFO 21656 --- [main] l.server.config.KoeConfiguration         : Enabling JDA-NAS
+2023-11-07T00:19:11.200+09:00  INFO 21656 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2023-11-07T00:19:11.203+09:00  INFO 21656 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2023-11-07T00:19:11.230+09:00  WARN 21656 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2023-11-07T00:19:11.371+09:00  INFO 21656 --- [main] io.undertow                              : starting server: Undertow - 2.3.6.Final
+2023-11-07T00:19:11.376+09:00  INFO 21656 --- [main] org.xnio                                 : XNIO version 3.8.8.Final
+2023-11-07T00:19:11.381+09:00  INFO 21656 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2023-11-07T00:19:11.416+09:00  INFO 21656 --- [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2023-11-07T00:19:11.453+09:00  INFO 21656 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 2333 (http)
+2023-11-07T00:19:11.456+09:00  INFO 21656 --- [main] lavalink.server.Launcher                 : Started Launcher in 1.215 seconds (process running for 2.376)
+2023-11-07T00:19:11.456+09:00  INFO 21656 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2023-11-07T00:19:17.911+09:00  INFO 21656 --- [XNIO-1 task-2] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-07T00:19:17.912+09:00  INFO 21656 --- [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-07T00:19:17.913+09:00  INFO 21656 --- [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-07T00:19:17.947+09:00  INFO 21656 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /version, client=127.0.0.1
+2023-11-07T00:19:17.953+09:00  INFO 21656 --- [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50875
+2023-11-07T00:19:17.970+09:00  INFO 21656 --- [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=127.0.0.1
+2023-11-07T00:19:18.008+09:00  INFO 21656 --- [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from Moonlink/2.5.12
+2023-11-07T00:19:27.655+09:00  INFO 21656 --- [SpringApplicationShutdownHook] io.undertow                              : stopping server: Undertow - 2.3.6.Final
+2023-11-07T00:19:27.658+09:00  INFO 21656 --- [SpringApplicationShutdownHook] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-07T00:19:27.659+09:00  INFO 21656 --- [SpringApplicationShutdownHook] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2023-11-07T00:19:27.663+09:00  INFO 21656 --- [XNIO-1 I/O-17] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:50875 with id qyzqflfzz15794mc -- CloseStatus[code=1006, reason=]
+2023-11-07T00:23:07.341+09:00  INFO 8004 --- [main] lavalink.server.Launcher                 : Starting Launcher v4.0.0-beta.3 using Java 17.0.9 with PID 8004 (C:\Users\Hyunsoo\Desktop\discord_music_bot-master\Lavalink\Lavalink.jar started by Hyunsoo in C:\Users\Hyunsoo\Desktop\discord_music_bot-master)
+2023-11-07T00:23:07.343+09:00  INFO 8004 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-11-07T00:23:07.907+09:00  INFO 8004 --- [main] lavalink.server.Launcher                 : Started Launcher in 0.854 seconds (process running for 1.168)
+2023-11-07T00:23:07.909+09:00  INFO 8004 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/lavalink-devs/Lavalink/issues/295
+2023-11-07T00:23:07.933+09:00  INFO 8004 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4.0.0-beta.3
+	Build time:     03.08.2023 15:57:46 UTC
+	Branch          HEAD
+	Commit:         6f37eba
+	Commit time:    03.08.2023 15:55:57 UTC
+	JVM:            17.0.9
+	Lavaplayer      2.0.0
+
+2023-11-07T00:23:07.938+09:00  INFO 8004 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-11-07T00:23:08.322+09:00  WARN 8004 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-11-07T00:23:08.339+09:00  INFO 8004 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-11-07T00:23:08.339+09:00  INFO 8004 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 399 ms
+2023-11-07T00:23:08.410+09:00  INFO 8004 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2023-11-07T00:23:08.836+09:00  INFO 8004 --- [main] l.server.config.KoeConfiguration         : OS: WINDOWS, Arch: X86_64
+2023-11-07T00:23:08.836+09:00  INFO 8004 --- [main] l.server.config.KoeConfiguration         : Enabling JDA-NAS
+2023-11-07T00:23:08.838+09:00  INFO 8004 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2023-11-07T00:23:08.843+09:00  INFO 8004 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2023-11-07T00:23:08.867+09:00  WARN 8004 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2023-11-07T00:23:09.015+09:00  INFO 8004 --- [main] io.undertow                              : starting server: Undertow - 2.3.6.Final
+2023-11-07T00:23:09.021+09:00  INFO 8004 --- [main] org.xnio                                 : XNIO version 3.8.8.Final
+2023-11-07T00:23:09.026+09:00  INFO 8004 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2023-11-07T00:23:09.061+09:00  INFO 8004 --- [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2023-11-07T00:23:09.095+09:00  INFO 8004 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 2333 (http)
+2023-11-07T00:23:09.098+09:00  INFO 8004 --- [main] lavalink.server.Launcher                 : Started Launcher in 1.187 seconds (process running for 2.36)
+2023-11-07T00:23:09.099+09:00  INFO 8004 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2023-11-07T00:23:15.616+09:00  INFO 8004 --- [XNIO-1 task-2] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-07T00:23:15.616+09:00  INFO 8004 --- [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-07T00:23:15.617+09:00  INFO 8004 --- [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-07T00:23:15.650+09:00  INFO 8004 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /version, client=127.0.0.1
+2023-11-07T00:23:15.654+09:00  INFO 8004 --- [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:51583
+2023-11-07T00:23:15.667+09:00  INFO 8004 --- [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=127.0.0.1
+2023-11-07T00:23:15.705+09:00  INFO 8004 --- [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from Moonlink/2.5.12
+2023-11-07T00:23:30.333+09:00  INFO 8004 --- [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:À½¾ÇÀÇ ½Å"
+2023-11-07T00:23:31.153+09:00  INFO 8004 --- [XNIO-1 task-3] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: À½¾ÇÀÇ ½Å
+2023-11-07T00:23:31.181+09:00  INFO 8004 --- [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/loadtracks?identifier=ytsearch%3A%EC%9D%8C%EC%95%85%EC%9D%98+%EC%8B%A0, client=127.0.0.1
+2023-11-07T00:23:31.285+09:00  INFO 8004 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ozrzcmeql1ftmns0/players/1170901669341577246, client=127.0.0.1, payload={"voice":{"sessionId":"42163e1bad8c2fffb1ecca71ea147691","endpoint":"south-korea1080.discord.media:443","token":"c47ea2a89bf004c5"}}
+2023-11-07T00:23:33.665+09:00  INFO 8004 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ozrzcmeql1ftmns0/players/1170901669341577246, client=127.0.0.1, payload={"encodedTrack":"QAAAzgMAMVNFVkVOVEVFTiAo7IS467iQ7Yu0KSAn7J2M7JWF7J2YIOyLoCcgT2ZmaWNpYWwgTVYAC0hZQkUgTEFCRUxTAAAAAAADxNgAC3pTUTQ4enlXWnJZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9elNRNDh6eVdaclkBADRodHRwczovL2kueXRpbWcuY29tL3ZpL3pTUTQ4enlXWnJZL21heHJlc2RlZmF1bHQuanBnAAAHeW91dHViZQAAAAAAAAAA","volume":80}
+2023-11-07T00:23:33.665+09:00  WARN 8004 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : YouTube auth tokens can't be retrieved because email and password is not set in YoutubeAudioSourceManager, age restricted videos will throw exceptions.
+2023-11-07T00:23:34.692+09:00  INFO 8004 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is null).
+2023-11-07T00:23:34.900+09:00  INFO 8004 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtyRy1aRy1EYldYVSj3iaSqBjIICgJLUhICGgA6CiC_2oql9p7BpGU%3D, next update will be after 600 seconds.
+2023-11-07T00:23:35.120+09:00  INFO 8004 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$821/0x0000016fec74fc80@5fa42c9a
+2023-11-07T00:23:35.125+09:00  INFO 8004 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2023-11-07T00:23:35.125+09:00  INFO 8004 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2023-11-07T00:23:35.140+09:00  INFO 8004 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2023-11-07T00:23:35.761+09:00  INFO 8004 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : DELETE /v4/sessions/ozrzcmeql1ftmns0/players/1170901669341577246, client=127.0.0.1
+2023-11-07T00:23:35.762+09:00  INFO 8004 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : DELETE /v4/sessions/ozrzcmeql1ftmns0/players/1170901669341577246, client=127.0.0.1
+2023-11-07T00:23:37.807+09:00  INFO 8004 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:À½¾ÇÀÇ ½Å"
+2023-11-07T00:23:38.129+09:00  INFO 8004 --- [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ozrzcmeql1ftmns0/players/1170901669341577246, client=127.0.0.1, payload={"voice":{"sessionId":"42163e1bad8c2fffb1ecca71ea147691","endpoint":"south-korea1080.discord.media:443","token":"c47ea2a89bf004c5"}}
+2023-11-07T00:23:38.315+09:00  INFO 8004 --- [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ozrzcmeql1ftmns0/players/1170901669341577246, client=127.0.0.1, payload={"voice":{"sessionId":"42163e1bad8c2fffb1ecca71ea147691","endpoint":"south-korea1080.discord.media:443","token":"90ac5a4a9c49393b"}}
+2023-11-07T00:23:38.316+09:00  INFO 8004 --- [XNIO-1 task-2] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: À½¾ÇÀÇ ½Å
+2023-11-07T00:23:38.317+09:00  INFO 8004 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/loadtracks?identifier=ytsearch%3A%EC%9D%8C%EC%95%85%EC%9D%98+%EC%8B%A0, client=127.0.0.1
+2023-11-07T00:23:42.011+09:00  INFO 8004 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ozrzcmeql1ftmns0/players/1170901669341577246, client=127.0.0.1, payload={"encodedTrack":"QAAAzgMAMVNFVkVOVEVFTiAo7IS467iQ7Yu0KSAn7J2M7JWF7J2YIOyLoCcgT2ZmaWNpYWwgTVYAC0hZQkUgTEFCRUxTAAAAAAADxNgAC3pTUTQ4enlXWnJZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9elNRNDh6eVdaclkBADRodHRwczovL2kueXRpbWcuY29tL3ZpL3pTUTQ4enlXWnJZL21heHJlc2RlZmF1bHQuanBnAAAHeW91dHViZQAAAAAAAAAA","volume":80}
+2023-11-07T00:26:04.102+09:00  INFO 8004 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ozrzcmeql1ftmns0/players/1170901669341577246, client=127.0.0.1, payload={"encodedTrack":null}
+2023-11-07T00:26:04.106+09:00  INFO 8004 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : DELETE /v4/sessions/ozrzcmeql1ftmns0/players/1170901669341577246, client=127.0.0.1
+2023-11-07T00:26:12.067+09:00  INFO 8004 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:À½¾ÇÀÇ ½Å"
+2023-11-07T00:26:12.607+09:00  INFO 8004 --- [XNIO-1 task-4] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ozrzcmeql1ftmns0/players/1170901669341577246, client=127.0.0.1, payload={"voice":{"sessionId":"42163e1bad8c2fffb1ecca71ea147691","endpoint":"south-korea1080.discord.media:443","token":"3842eb2c88e211e5"}}
+2023-11-07T00:26:12.641+09:00  INFO 8004 --- [XNIO-1 task-2] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: À½¾ÇÀÇ ½Å
+2023-11-07T00:26:12.643+09:00  INFO 8004 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/loadtracks?identifier=ytsearch%3A%EC%9D%8C%EC%95%85%EC%9D%98+%EC%8B%A0, client=127.0.0.1
+2023-11-07T00:26:12.699+09:00  INFO 8004 --- [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ozrzcmeql1ftmns0/players/1170901669341577246, client=127.0.0.1, payload={"voice":{"sessionId":"42163e1bad8c2fffb1ecca71ea147691","endpoint":"south-korea1080.discord.media:443","token":"90ac5a4a9c49393b"}}
+2023-11-07T00:26:16.534+09:00  INFO 8004 --- [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/ozrzcmeql1ftmns0/players/1170901669341577246, client=127.0.0.1, payload={"encodedTrack":"QAABAQMAUlNFVkVOVEVFTijshLjruJDti7QpIC0gR29kIG9mIE11c2ljKOydjOyVheydmCDsi6ApIEDsnbjquLDqsIDsmpQgaW5raWdheW8gMjAyMzExMDUAHeyKpOu4jOyKpOy8gOydtO2MnSBYIElOS0lHQVlPAAAAAAADawAACzdOVGEwbzgwUHVNAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9N05UYTBvODBQdU0BADRodHRwczovL2kueXRpbWcuY29tL3ZpLzdOVGEwbzgwUHVNL21heHJlc2RlZmF1bHQuanBnAAAHeW91dHViZQAAAAAAAAAA","volume":80}
+2023-11-07T00:29:59.934+09:00  INFO 8004 --- [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : DELETE /v4/sessions/ozrzcmeql1ftmns0/players/1170901669341577246, client=127.0.0.1
